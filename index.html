@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap-4</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="heading d-flex justify-content-center  fs-14px " style="background-color:  #40197c; height: 30px;">
+            <a class="text-decoration-none text-white" href="https://getbootstrap.com/">
+         <p class="m-1  "> There's a newar version of Bootstrap 4! </a></p>
+        </a>
+        </div>
+    <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            
+            <a  class="navbar-brand logo text-white ms-3 me-0" aria-current="page" href=""><img width="50%" src="img/bootstrap-social-logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-0">
+                    
+                  <li class="nav-item ">
+                    <a class="nav-link  text-white" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#custom">Custom</a>
+                  </li>
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#framework">Framework</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#navbar">Navbar</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#experiments">Experiments</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                  </li>
+
+                  
+                </ul>
+                <form class="d-flex me-2 ">
+                    
+                    
+                  
+                        <ul class="navbar-nav mb-lg-0 " >
+                            
+                          
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  V4.0
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="#">Latest(v4.1.x)</a></li>
+                                  <li><a class="dropdown-item " href="#"><i class="fas fa-check"></i>  v4.0.0</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">v4 Alpha 6</a></li>
+                                  <li><a class="dropdown-item" href="#">v3.3.7</a></li>
+                                  <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link p-2 text-white" href="https://github.com/twbs/bootstrap"><i class="fab fa-github"></i>
+                                </a>
+                              </li>
+                          
+                              <li class="nav-item">
+                                <a class="nav-link p-2 text-white" href="https://twitter.com/getbootstrap"><i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link p-2 text-white" href="https://bootstrap-slack.herokuapp.com/"><i class="fab fa-slack-hash"></i>
+                                </a>
+                              </li>
+                          
+                              <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 fw-bold border border-1 border-warning text-warning" href="https://github.com/twbs/bootstrap/archive/v4.0.0.zip">Download</a>
+                         
+                        </ul>
+                        </div>
+                  
+                </form>
+              </div>
+            
+          </nav>
+<!-- end navbar -->
+
+<!-- start home pages -->
+          <section class="" style="background: #F4F4F4;" id="home">
+            <div class="row p-5  bg-gradient d-flex align-items-center " >
+                <div class="col-lg-7 col-sm-12  my-5 ">
+                    <h1 class="fw-normal">Examples</h1>
+                    <p class="w-75 fw-light fs-5">Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</p>
+                    
+                    <button class="source btn border border-primary border-2 rounded-3 mt-2" >Download Source Code </button>
+
+                </div>
+                <div class="adobe col-lg-5 col-sm-12 d-flex p-3 mb-2 bg-secondary text-white  my-5 ">
+                  <img src="img/adobe.png" class="d-block w-50" alt="...">
+                  <p class="ms-3 ">Adobe Creative Cloud for Teams starting at $33.99 per month. <br>
+                   <span class="fw-light"> ads via Carbon</span></p>
+                </div>
+            </div>
+          
+        </div>
+          </section>
+          <!--End home pages -->
+    </header>
+    <!-- end header -->
+
+
+    <!-- Start Main -->
+    <main>
+        <!-- Start Custom section -->
+        <section class="container my-5" id="custom">
+            <h2>Custom components</h2>
+            <p>Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework.</p>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  g-4">
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/album/">
+                    <img src="img/component img/album.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Album</h5>
+                    </a>
+                      <p class="card-text">Simple one-page template for photo galleries, portfolios, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/pricing/">
+                    <img src="img/component img/pricing.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pricing</h5>
+                   </a>
+                      <p class="card-text">Example pricing page built with Cards and featuring a custom header and footer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                    <a href="https://getbootstrap.com/docs/4.0/examples/checkout/">
+                        <img src="img/component img/checkout.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Checkout</h5>
+                    </a>
+                      <p class="card-text">Custom checkout form showing our form components and their validation features.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/product/">
+                    <img src="img/component img/product.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product</h5>
+                   </a>
+                      <p class="card-text">Lean product-focused marketing page with extensive grid and image work.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/cover/">
+                    <img src="img/component img/cover.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cover</h5>
+                   </a>
+                      <p class="card-text">A one-page template for building simple and beautiful home pages.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+                    <img src="img/component img/carousel.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Carousel</h5>
+                   </a>
+                      <p class="card-text">Customize the navbar and carousel, then add some new components.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/blog/">
+                    <img src="img/component img/blog.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Blog</h5>
+                   </a>
+                      <p class="card-text">Magazine like blog template with header, navigation, featured content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
+                    <img src="img/component img/dashboard.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dashboard</h5>
+                   </a>
+                      <p class="card-text">Basic admin dashboard shell with fixed sidebar and navbar.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+                    <img src="img/component img/sign-in.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sign-in</h5>
+                   </a>
+                      <p class="card-text">Custom form layout and design for a simple sign in form.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+                    <img src="img/component img/sticky-footer.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sticky-footer</h5>
+                   </a>
+                      <p class="card-text">Attach a footer to the bottom of the viewport when page content is short.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                   <a href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+                    <img src="img/component img/sticky-footer-navbar.png" class="card-img-top border border-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sticky-footer-navbar</h5>
+                   </a>
+                      <p class="card-text">Attach a footer to the bottom of the viewport with a fixed top navbar.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+<!-- end Custom section -->
+
+<!-- Start Framework section -->
+        <section class="container my-5" id="framework">
+            <h2>Framework</h2>
+            <p>Examples that focus on implementing uses of built-in components provided by Bootstrap.</p>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  g-4">
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
+                    <img src="img/framework/starter-template.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Starter-template</h5>
+                    </a>
+                      <p class="card-text">Nothing but the basics: compiled CSS and JavaScript.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/grid/">
+                    <img src="img/framework/grid.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Grid</h5>
+                    </a>
+                      <p class="card-text">Multiple examples of grid layouts with all four tiers, nesting, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+                    <img src="img/framework/jumbotron.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Jumbotron</h5>
+                    </a>
+                      <p class="card-text">Build around the jumbotron with a navbar and some basic grid columns.</p>
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+        </section>
+<!-- end Framework section -->
+
+<!-- Start Navbar section -->
+        <section class="container my-5" id="navbar">
+            <h2>Navbars</h2>
+            <p>Taking the default navbar component and showing how it can be moved, placed, and extended.</p>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  g-4 d-flex justify-content-center">
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/navbars/">
+                    <img src="img/navbar/navbars.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Navbars</h5>
+                    </a>
+                      <p class="card-text">Demonstration of all responsive and container options for the navbar.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/navbar-static/">
+                    <img src="img/navbar/navbar-static.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Navbar-static</h5>
+                    </a>
+                      <p class="card-text">Single navbar example of a static top navbar along with some additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+                    <img src="img/navbar/navbar-fixed.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Navbar-fixed</h5>
+                    </a>
+                      <p class="card-text">Single navbar example with a fixed top navbar along with some additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/navbar-bottom/">
+                    <img src="img/navbar/navbar-bottom.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Navbar-bottom</h5>
+                    </a>
+                      <p class="card-text">Single navbar example with a bottom navbar along with some additional content.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                
+        </section>
+        <!-- end Navbar section -->
+
+        <!-- Start experiment section -->
+        <section class="container my-5" id="experiments">
+            <h2>Experiments</h2>
+            <p>Examples that focus on future-friendly features or techniques.</p>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  g-4">
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/floating-labels/">
+                    <img src="img/experiment/floating-labels.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Floating-labels</h5>
+                    </a>
+                      <p class="card-text">Beautifully simple forms with floating labels over your inputs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-0">
+                  <a href="https://getbootstrap.com/docs/4.0/examples/offcanvas/">
+                    <img src="img/experiment/offcanvas.png" class="card-img-top border border-1" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Offcanvas</h5>
+                    </a>
+                      <p class="card-text">Turn your expandable navbar into a sliding offcanvas menu.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- end experiment section -->
+
+    </main>
+    <!-- start footer -->
+    <footer class=" bg-secondary text-white " id="about">
+        <div class=" ">
+        <div class="navbar navbar-expand-lg navbar-light ">
+            <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarSupportedContent">
+                  
+                <ul class="navbar-nav  mb-2 mb-lg-0 ms-0 ">
+                    
+                  <li class="nav-item ">
+                    <a class="nav-link text-white" aria-current="page" href="#home">GitHub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Twitter </a>
+                  </li>
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Examples</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  
+                  
+                  </ul>
+              </div>
+              </div>
+           <div class="d-flex justify-content-center align-items-center">
+            <p>Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the help of our contributors.
+
+                Currently v4.0.0. Code licensed MIT, docs CC BY 3.0.</p>
+           </div>
+               
+                
+            </div>
+        
+    </footer>
+    <!-- bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

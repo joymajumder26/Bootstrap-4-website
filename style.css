@@ -1,0 +1,66 @@
+.heading:hover{
+    background-color:  #322348 !important;
+    
+    
+
+}
+
+.logo{
+   width:  6%;
+}
+nav{
+    background-color: #563d7c; 
+}
+.btn:hover{
+    background-color: goldenrod;
+    color: black !important;
+}
+.adobe{
+    width: 400px;
+    height: 150px;
+  
+}
+
+.adobe p{
+    width: 180px;
+    height: 100px;
+    font-size: 15px;
+}
+.source{
+    color: #563d7c; 
+}
+.source:hover{
+    background-color: #563d7c;
+    color: white !important; 
+}
+#custom  a{
+    text-decoration: none;
+
+}
+#custom a:hover{
+    text-decoration: underline;
+
+}
+#navbar a{
+    text-decoration: none;
+
+}
+#navbar a:hover{
+    text-decoration: underline;
+
+}
+#framework a{
+    text-decoration: none;
+
+}
+#framework a:hover{
+    text-decoration: underline;
+
+}
+#experiments a{
+    text-decoration: none;
+}
+#experiments a:hover{
+    text-decoration: underline;
+}
+
